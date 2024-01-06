@@ -44,7 +44,7 @@ class PhotoAppCubit extends Cubit<PhotoAppState> {
 
     final camera = await availableCameras();
     cameraController = CameraController(
-        isBackCam == true ? camera.last : camera.first,
+        isBackCam == false ? camera.last : camera.first,
         resolutionPreset ?? ResolutionPreset.high
     );
 

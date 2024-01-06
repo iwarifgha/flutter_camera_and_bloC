@@ -45,10 +45,10 @@ bool _isBackCamera = true;
                             ),
                           ),
                         ),
-                        const SizedBox(width: 25,),
+                        const SizedBox(width: 10,),
                         IconButton(
                             color: Colors.white,
-                            padding: const EdgeInsets.only(bottom: 10),
+                            padding: const EdgeInsets.only(bottom: 25),
                             onPressed: (){
                               setState(() {
                                 _isBackCamera = !_isBackCamera;
